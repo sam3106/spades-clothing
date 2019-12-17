@@ -2,6 +2,7 @@ import React from "react";
 import "./app.css";
 import HomePage from "./pages/HomePage/homepage";
 import { Switch, Route } from "react-router-dom";
+import ShopPage from "./pages/shop/shop";
 
 const HatsPage = () => (
   <div>
@@ -14,7 +15,7 @@ class App extends React.Component {
       <div>
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route  path="/hats" component={HatsPage} />
+          <Route path="/shop" component={ShopPage} />
         </Switch>
       </div>
     );
