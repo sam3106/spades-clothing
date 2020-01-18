@@ -8,7 +8,7 @@ import Header from "./component/header/header";
 import {
   auth,
   createUserProfileDocument,
-  signInWithGoogle
+  
 } from "./firebase/firebase-utils";
 import { connect } from "react-redux";
 import CheckoutPage from "./pages/checkout/checkout";
